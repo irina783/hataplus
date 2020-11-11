@@ -186,12 +186,12 @@ sup{
 }
 .fon{
     margin-bottom: 30px;
-    padding: 60px 0 40px;
+    padding: 45px 0 25px;
     background-image: url(../img/main-bg.jpg);
     background-size: cover;
 }
 .fon p{
-    margin: 10px 0;
+    margin: 15px 0;
     text-align: center;
 }
 .fon-heading{
