@@ -191,7 +191,7 @@ sup{
     background-size: cover;
 }
 .fon p{
-    margin: 15px 0;
+    margin: 10px 0;
     text-align: center;
 }
 .fon-heading{
@@ -404,8 +404,11 @@ figure p{
     border-radius: 3px;
     overflow: hidden;
 }
+.table-price td:last-child{
+    text-align: right;
+}
 .table-price .table-head{
-    padding: 15px 10px 10px 15px;
+    padding: 15px 18px 10px;
     color: #fff;
     font: 700 14px/24px "Roboto Slab";
     background-color: #1f1f56;
@@ -423,7 +426,7 @@ figure p{
     border-radius: 0 0 0 3px;
 }
 .table-price td{
-    padding: 15px 10px 10px 15px;
+    padding: 15px 18px 10px;
     color: #666;
     font: 14px/24px Arial;
     border-collapse: separate;
@@ -433,6 +436,9 @@ figure p{
 tbody tr:hover td{
     color: #fff;
     background-color: #fd8300;
+}
+tbody tr:first-child td{
+    border-top: none;
 }
 .two_sections{
     padding-bottom: 45px;
